@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe - Button UI API Test</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        #chat-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-msg {
+            color: blue;
+            margin-bottom: 10px;
+            text-align: right;
+            background: #e0e0ff;
+            padding: 8px;
+            border-radius: 4px;
+            align-self: flex-end;
+            max-width: 80%;
+        }
+
+        .bot-msg {
+            color: black;
+            margin-bottom: 10px;
+            text-align: left;
+            background: #f0f0f0;
+            padding: 8px;
+            border-radius: 4px;
+            align-self: flex-start;
+            max-width: 80%;
+            white-space: pre-wrap;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 20px;
+            align-self: flex-start;
+            width: 80%;
+        }
+
+        .option-btn {
+            background: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: left;
+            font-family: monospace;
+        }
+
+        .option-btn:hover {
+            background: #003d82;
+        }
+
+        #input-container {
+            max-width: 600px;
+            margin: 10px auto;
+            display: flex;
+        }
+
+        input {
+            flex: 1;
+            padding: 10px;
+            font-family: monospace;
+        }
+
+        #send-btn {
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center; font-family: sans-serif;">Dev Wireframe (No Styling)</h2>
+    <div id="chat-container"></div>
+    <div id="input-container">
+        <input type="text" id="msgInput" placeholder="Type a custom question for Gemini..." autofocus />
+        <button id="send-btn" onclick="sendText()">Send</button>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-container');
+        const input = document.getElementById('msgInput');
+
+        // Random session ID string to track this user window
+        const sessionId = "test-session-" + Math.floor(Math.random() * 10000);
+
+        // Load menu on start by triggering a dummy "hi" text command
+        window.onload = () => sendPayload('hi', 'text', true);
+
+        input.addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                sendText();
+            }
+        });
+
+        // Triggered when user physically types in the box
+        function sendText() {
+            const text = input.value.trim();
+            if (!text) return;
+            input.value = '';
+            appendUserMessage(text);
+            sendPayload(text, 'text', false);
+        }
+
+        // Triggered when user clicks a generated UI button
+        function sendButton(value, label) {
+            appendUserMessage(`[Clicked] ${label}`);
+            sendPayload(value, 'button', false);
+        }
+
+        function appendUserMessage(text) {
+            chatBox.innerHTML += `<div class="user-msg">${text}</div>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        async function sendPayload(message, type, hideUserMsg) {
+            // Remove previous buttons so user can't click old menus
+            const oldOptions = document.querySelectorAll('.options-container');
+            oldOptions.forEach(el => el.remove());
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ sessionId, message, type })
+                });
+
+                const data = await response.json();
+
+                // 1. Render Bot Text
+                chatBox.innerHTML += `<div class="bot-msg">${data.response || data.error}</div>`;
+
+                // 2. Render Bot Options (if any exist)
+                if (data.options && data.options.length > 0) {
+                    let buttonsHtml = '<div class="options-container">';
+                    data.options.forEach(opt => {
+                        // Pass value and label cleanly to sendButton
+                        buttonsHtml += `<button class="option-btn" onclick="sendButton('${opt.value}', '${opt.label.replace(/'/g, "\\'")}')">${opt.label}</button>`;
+                    });
+                    buttonsHtml += '</div>';
+                    chatBox.innerHTML += buttonsHtml;
+                }
+
+                chatBox.scrollTop = chatBox.scrollHeight;
+            } catch (err) {
+                console.error(err);
+                chatBox.innerHTML += `<div class="bot-msg">Error connecting to server.</div>`;
+            }
+        }
+    </script>
+</body>
+
+</html>
