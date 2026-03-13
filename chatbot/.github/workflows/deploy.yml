@@ -32,5 +32,5 @@ jobs:
         application_name: parul-chatbot
         environment_name: parul-chatbot-env
         version_label: ${{ github.sha }}
-        region: us-east-1
+        region: ap-south-1
         deployment_package: deploy.zip
