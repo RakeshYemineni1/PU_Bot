@@ -1,3 +1,11 @@
 node_modules/
 .env
+npm-debug.log*
+.DS_Store
+.vscode/
+*.log
 coverage/
+.nyc_output/
+backend/node_modules/
+deploy.zip
+.elasticbeanstalk/
