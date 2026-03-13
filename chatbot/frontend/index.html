@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parul University Chatbot</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chatbot-header">
+      <div class="header-left">
+        <svg class="header-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <div class="header-text">
+          <h1>Parul University</h1>
+          <p>Ask me anything</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="menuBtn" class="menu-btn" onclick="goBackToTopics()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          Back to Topics
+        </button>
+      </div>
+    </div>
+
+    <div class="chatbot-body">
+      <div id="welcomeScreen" class="welcome-screen">
+        <div class="welcome-content">
+          <svg class="welcome-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <h2>Welcome to Parul University</h2>
+          <p>Select a topic below or type your question</p>
+        </div>
+        <div id="domainGrid" class="domain-grid"></div>
+      </div>
+
+      <div id="chatMessages" class="chat-messages"></div>
+    </div>
+
+    <div class="chatbot-footer">
+      <div class="input-container">
+        <input 
+          type="text" 
+          id="userInput" 
+          placeholder="Type your question here..."
+          autocomplete="off"
+        >
+        <button id="sendBtn" class="send-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
