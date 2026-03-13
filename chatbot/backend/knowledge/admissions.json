@@ -1,0 +1,45 @@
+{
+  "domain": "admissions",
+  "lastUpdated": "2026-03-13T09:01:56.841Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "How do I apply for admission?",
+      "answer": "To apply for admission at Parul University, you can visit the official website and fill out the online application form. The process is simple and user-friendly. You need to provide your personal details, academic information, and upload required documents. After submitting the application, you will receive further instructions regarding the admission process.",
+      "sources": [
+        "https://paruluniversity.ac.in/admission/how-to-apply/",
+        "https://paruluniversity.ac.in/international-admissions/"
+      ]
+    },
+    {
+      "question": "What are the eligibility criteria?",
+      "answer": "Eligibility criteria vary depending on the program you choose. For undergraduate programs, candidates typically need to have completed 12th grade from a recognized board. For postgraduate programs, a relevant bachelor's degree is required. Specific programs may have additional requirements such as minimum percentage criteria or entrance exam scores. International students have separate eligibility criteria.",
+      "sources": [
+        "https://paruluniversity.ac.in/admission/how-to-apply/"
+      ]
+    },
+    {
+      "question": "What is the admission process?",
+      "answer": "The admission process at Parul University involves several steps: online application submission, document verification, merit-based selection or entrance exam (where applicable), counseling sessions, and final admission confirmation. The university has admission offices across multiple locations to assist students throughout the process. International students follow a similar but specialized admission procedure.",
+      "sources": [
+        "https://paruluniversity.ac.in/admission/",
+        "https://paruluniversity.ac.in/admission/how-to-apply/",
+        "https://paruluniversity.ac.in/international-admissions/"
+      ]
+    },
+    {
+      "question": "Is there an entrance exam?",
+      "answer": "Some programs at Parul University require entrance exams, while others are based on merit. For medical courses, NEET is mandatory. Engineering and other professional courses may have specific entrance exam requirements. The university also accepts various national-level entrance exam scores. International students may have different assessment criteria.",
+      "sources": [
+        "https://paruluniversity.ac.in/international-admissions/"
+      ]
+    },
+    {
+      "question": "What documents are required?",
+      "answer": "Required documents for admission typically include academic transcripts and certificates, identity proof (Aadhar card/passport), photographs, migration certificate, character certificate, and program-specific documents. International students need additional documents such as passport, visa, and English proficiency certificates. A complete list of required documents is provided during the application process.",
+      "sources": [
+        "https://paruluniversity.ac.in/international-admissions/"
+      ]
+    }
+  ]
+}

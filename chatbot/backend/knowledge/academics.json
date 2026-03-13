@@ -1,0 +1,43 @@
+{
+  "domain": "academics",
+  "lastUpdated": "2026-03-13T09:01:56.844Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What is the examination system?",
+      "answer": "Parul University follows a comprehensive examination system that includes continuous assessment, mid-term examinations, and final examinations. The university uses modern evaluation methods to assess student performance fairly and accurately. The examination system is designed to test both theoretical knowledge and practical skills, ensuring students are well-prepared for their careers.",
+      "sources": [
+        "https://paruluniversity.ac.in/academics/examinations/"
+      ]
+    },
+    {
+      "question": "What research facilities are available?",
+      "answer": "Parul University has a dedicated Research and Development Centre that provides excellent research facilities across various disciplines. The university encourages innovation and research among students and faculty members. State-of-the-art laboratories, research equipment, and expert guidance are available to support research activities in engineering, medicine, sciences, and other fields.",
+      "sources": [
+        "https://paruluniversity.ac.in/research-and-development-centre/"
+      ]
+    },
+    {
+      "question": "What library facilities are provided?",
+      "answer": "Parul University libraries offer extensive collections of books, journals, digital resources, and research materials. The libraries are equipped with modern facilities including digital access, online databases, study areas, and research support services. Students have access to both physical and electronic resources to support their academic and research needs.",
+      "sources": [
+        "https://paruluniversity.ac.in/academics/pu-libraries/"
+      ]
+    },
+    {
+      "question": "What is the academic structure?",
+      "answer": "Parul University has a well-organized academic structure with multiple faculties and institutes offering diverse programs. The academic framework includes various levels of education from diploma to doctoral programs. The university maintains high academic standards with experienced faculty, modern curriculum, and industry-relevant training to ensure quality education.",
+      "sources": [
+        "https://paruluniversity.ac.in/academics/faculties-institutes/"
+      ]
+    },
+    {
+      "question": "What student welfare services exist?",
+      "answer": "Parul University provides comprehensive student welfare services including counseling, health support, academic guidance, and personal development programs. The student welfare department ensures that students have access to necessary support services for their overall well-being and academic success. Various student services are available to help students adapt to university life and achieve their goals.",
+      "sources": [
+        "https://paruluniversity.ac.in/academics/student-welfare/",
+        "https://paruluniversity.ac.in/student-services/"
+      ]
+    }
+  ]
+}

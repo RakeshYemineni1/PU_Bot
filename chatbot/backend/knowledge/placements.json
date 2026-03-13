@@ -1,0 +1,47 @@
+{
+  "domain": "placements",
+  "lastUpdated": "2026-03-13T09:01:56.839Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What is the placement process?",
+      "answer": "Parul University has a dedicated Training & Placement Cell that facilitates campus placements for students. The placement process includes pre-placement training, skill development programs, mock interviews, and regular placement drives. The cell works closely with industry partners to ensure students are well-prepared for their careers and successfully placed in leading companies.",
+      "sources": [
+        "https://paruluniversity.ac.in/training-placement-cell/",
+        "https://paruluniversity.ac.in/our-leading-recruiters/",
+        "https://paruluniversity.ac.in/placement-policy/"
+      ]
+    },
+    {
+      "question": "Which companies recruit from the university?",
+      "answer": "Parul University has partnerships with over 2,200+ leading recruiters from various industries. Top companies like Microsoft recruit from the campus, offering excellent career opportunities. The university maintains strong relationships with companies across IT, healthcare, engineering, management, and other sectors, providing students with diverse placement opportunities.",
+      "sources": [
+        "https://paruluniversity.ac.in/training-placement-cell/",
+        "https://paruluniversity.ac.in/our-leading-recruiters/",
+        "https://paruluniversity.ac.in/placement-policy/"
+      ]
+    },
+    {
+      "question": "What is the placement record?",
+      "answer": "Parul University has an excellent placement record with over 20,000+ students successfully placed in leading companies. The university maintains strong industry connections and consistently achieves high placement rates across all faculties. The placement cell ensures that students from various disciplines find suitable career opportunities in their respective fields.",
+      "sources": [
+        "https://paruluniversity.ac.in/our-leading-recruiters/"
+      ]
+    },
+    {
+      "question": "What are the average and highest packages?",
+      "answer": "Parul University has achieved remarkable placement success with the highest package offered being 60 LPA. Notable achievements include students like Suraj Jagtap and Tanish Patel being placed at Microsoft with excellent packages. The university consistently secures competitive salary packages for its graduates across various disciplines.",
+      "sources": [
+        "https://paruluniversity.ac.in/training-placement-cell/",
+        "https://paruluniversity.ac.in/placement-policy/"
+      ]
+    },
+    {
+      "question": "Are internships provided?",
+      "answer": "Yes, Parul University facilitates internship opportunities through its Training & Placement Cell. The university has strong industry partnerships that provide students with valuable internship experiences, helping them gain practical knowledge and industry exposure before graduation. These internships often lead to full-time job offers.",
+      "sources": [
+        "https://paruluniversity.ac.in/training-placement-cell/"
+      ]
+    }
+  ]
+}

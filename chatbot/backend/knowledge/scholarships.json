@@ -1,0 +1,52 @@
+{
+  "domain": "scholarships",
+  "lastUpdated": "2026-03-13T09:01:56.851Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What scholarships are available?",
+      "answer": "Parul University offers various scholarship schemes to support students financially. These include Cultural Scholarships for students with talents in arts and culture, Sports Scholarships for athletic achievers, and Defence Scholarships for children of defense personnel. The university believes in the transforming power of education and provides financial aid programs to help students pursue their academic goals while exploring their passions.",
+      "sources": [
+        "https://paruluniversity.ac.in/scholarships-at-pu/",
+        "https://paruluniversity.ac.in/domestic-students-fees-structure/",
+        "https://paruluniversity.ac.in/international-students-fees-structure/"
+      ]
+    },
+    {
+      "question": "What is the fee structure?",
+      "answer": "Parul University has separate fee structures for domestic and international students. The fees vary depending on the program, level of study, and facilities provided. The university offers transparent fee structures and provides detailed information about tuition fees, hostel charges, and other expenses. Financial assistance and scholarship programs are available to help students manage their educational expenses.",
+      "sources": [
+        "https://paruluniversity.ac.in/scholarships-at-pu/",
+        "https://paruluniversity.ac.in/domestic-students-fees-structure/",
+        "https://paruluniversity.ac.in/international-students-fees-structure/"
+      ]
+    },
+    {
+      "question": "How can I apply for scholarships?",
+      "answer": "To apply for scholarships at Parul University, students need to submit their applications along with required documents during the admission process. The scholarship application process includes providing academic records, proof of achievements (for sports/cultural scholarships), and relevant certificates. The university evaluates applications based on merit, need, and specific scholarship criteria.",
+      "sources": [
+        "https://paruluniversity.ac.in/scholarships-at-pu/",
+        "https://paruluniversity.ac.in/domestic-students-fees-structure/",
+        "https://paruluniversity.ac.in/international-students-fees-structure/"
+      ]
+    },
+    {
+      "question": "Are there merit-based scholarships?",
+      "answer": "Yes, Parul University offers merit-based scholarships to recognize and reward academic excellence. These scholarships are awarded to students based on their academic performance, entrance exam scores, and overall achievements. The university encourages talented students by providing financial support to help them focus on their studies and achieve their academic goals.",
+      "sources": [
+        "https://paruluniversity.ac.in/scholarships-at-pu/",
+        "https://paruluniversity.ac.in/domestic-students-fees-structure/",
+        "https://paruluniversity.ac.in/international-students-fees-structure/"
+      ]
+    },
+    {
+      "question": "What is the fee for international students?",
+      "answer": "International students have a separate fee structure at Parul University. The fees for international students are competitive and include tuition, accommodation, and other facilities. The university provides comprehensive support for international students and offers various payment options. Detailed fee information for international students is available on the university's official website and through the international admissions office.",
+      "sources": [
+        "https://paruluniversity.ac.in/scholarships-at-pu/",
+        "https://paruluniversity.ac.in/domestic-students-fees-structure/",
+        "https://paruluniversity.ac.in/international-students-fees-structure/"
+      ]
+    }
+  ]
+}

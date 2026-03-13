@@ -1,0 +1,44 @@
+{
+  "domain": "campusLife",
+  "lastUpdated": "2026-03-13T09:01:56.846Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What is campus life like?",
+      "answer": "Campus life at Parul University is vibrant and diverse, offering students a rich experience beyond academics. The university hosts students from over 75 countries, creating a multicultural environment. Students can participate in various activities, clubs, societies, and events that contribute to their personal and professional development. The campus provides a supportive and engaging atmosphere for learning and growth.",
+      "sources": [
+        "https://paruluniversity.ac.in/life-at-pu/",
+        "https://paruluniversity.ac.in/living-at-pu/"
+      ]
+    },
+    {
+      "question": "What events are organized?",
+      "answer": "Parul University organizes numerous educational and cultural events throughout the year. These include academic conferences, cultural festivals, sports competitions, technical symposiums, and various student-led activities. The university's event calendar is packed with opportunities for students to showcase their talents, learn new skills, and engage with peers from different backgrounds.",
+      "sources": [
+        "https://paruluniversity.ac.in/educational-events-at-pu/",
+        "https://paruluniversity.ac.in/life-at-pu/"
+      ]
+    },
+    {
+      "question": "What are the hostel facilities?",
+      "answer": "Parul University provides comfortable and secure hostel accommodation for students. The hostels are equipped with modern amenities including furnished rooms, dining facilities, recreational areas, and 24/7 security. The living facilities are designed to create a home-like environment where students can focus on their studies while enjoying a community living experience.",
+      "sources": [
+        "https://paruluniversity.ac.in/living-at-pu/"
+      ]
+    },
+    {
+      "question": "What sports facilities are available?",
+      "answer": "The university offers excellent sports facilities including gymnasiums, sports grounds, courts for various games, and fitness centers. Students can participate in both indoor and outdoor sports activities. The university encourages physical fitness and sportsmanship through organized sports events, competitions, and training programs led by qualified coaches.",
+      "sources": [
+        "https://paruluniversity.ac.in/life-at-pu/"
+      ]
+    },
+    {
+      "question": "What clubs and societies exist?",
+      "answer": "Parul University has numerous student clubs and societies covering various interests including academic clubs, cultural societies, technical groups, social service organizations, and hobby-based clubs. These organizations provide platforms for students to pursue their interests, develop leadership skills, and build networks with like-minded peers. Students are encouraged to actively participate in these extracurricular activities.",
+      "sources": [
+        "https://paruluniversity.ac.in/life-at-pu/"
+      ]
+    }
+  ]
+}

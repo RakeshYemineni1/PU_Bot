@@ -1,0 +1,45 @@
+{
+  "domain": "facilities",
+  "lastUpdated": "2026-03-13T09:01:56.853Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What infrastructure does the university have?",
+      "answer": "Parul University boasts world-class infrastructure including modern academic buildings, well-equipped laboratories, advanced research facilities, spacious classrooms with audio-visual aids, libraries, sports complexes, hostels, and recreational areas. The campus is designed to provide an optimal learning environment with state-of-the-art facilities that support both academic and extracurricular activities.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/pu-infrastructure/",
+        "https://paruluniversity.ac.in/about-us/campus/"
+      ]
+    },
+    {
+      "question": "What student services are available?",
+      "answer": "Parul University provides comprehensive student services including academic counseling, career guidance, health services, accommodation assistance, international student support, placement assistance, and various administrative services. The student services department ensures that all students receive the necessary support for their academic success and personal well-being throughout their university journey.",
+      "sources": [
+        "https://paruluniversity.ac.in/student-services/",
+        "https://paruluniversity.ac.in/academics/student-welfare/"
+      ]
+    },
+    {
+      "question": "What are the campus facilities?",
+      "answer": "The campus facilities at Parul University include modern classrooms, advanced laboratories, well-stocked libraries, computer centers, sports facilities, dining halls, medical center, banking services, shopping areas, and recreational spaces. The campus is designed to be self-sufficient, providing all necessary amenities for students, faculty, and staff within the university premises.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/campus/",
+        "https://paruluniversity.ac.in/about-us/pu-infrastructure/"
+      ]
+    },
+    {
+      "question": "Is there medical support on campus?",
+      "answer": "Yes, Parul University provides comprehensive medical support on campus through its healthcare facilities. The university has medical centers staffed with qualified healthcare professionals who provide primary healthcare services, emergency care, and health counseling to students and staff. The medical facilities ensure that health support is readily available when needed.",
+      "sources": [
+        "https://paruluniversity.ac.in/student-services/"
+      ]
+    },
+    {
+      "question": "What transport facilities exist?",
+      "answer": "Parul University provides convenient transport facilities including bus services connecting the campus to various parts of the city and nearby areas. The university ensures good connectivity for students and staff, making it easy to commute to and from the campus. Transport services are designed to be safe, reliable, and accessible for the university community.",
+      "sources": [
+        "https://paruluniversity.ac.in/student-services/"
+      ]
+    }
+  ]
+}

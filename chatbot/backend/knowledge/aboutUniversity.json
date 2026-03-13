@@ -1,0 +1,56 @@
+{
+  "domain": "aboutUniversity",
+  "lastUpdated": "2026-03-13T09:01:56.857Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What is the university vision and mission?",
+      "answer": "Parul University's vision is to be 'A Place for Discovery, Innovation and Quality Learning.' The university is committed to providing the highest form of quality in education while hosting the world's diversities. It serves as a unique destination of learning, innovation, and research, welcoming students from around the globe to experience world-class education in a multicultural environment. The university focuses on Impact, Diversity, Leadership, Innovation, Inspiration, and Sustainability.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/",
+        "https://paruluniversity.ac.in/about-us/leadership/",
+        "https://paruluniversity.ac.in/about-us/vision-and-mission/",
+        "https://paruluniversity.ac.in/about-us/recognitions-accreditations-approvals-notifications/"
+      ]
+    },
+    {
+      "question": "Who are the university leaders?",
+      "answer": "Parul University is led by visionary leaders who are committed to educational excellence and innovation. The university's leadership team includes experienced administrators and academic leaders who guide the institution towards achieving its mission of providing quality education and fostering research and development.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/",
+        "https://paruluniversity.ac.in/about-us/leadership/",
+        "https://paruluniversity.ac.in/about-us/vision-and-mission/",
+        "https://paruluniversity.ac.in/about-us/pu-advantage/",
+        "https://paruluniversity.ac.in/about-us/recognitions-accreditations-approvals-notifications/"
+      ]
+    },
+    {
+      "question": "What recognitions does the university have?",
+      "answer": "Parul University has received various awards and rankings that mark its quality in education. The university has gained recognition for its academic excellence, infrastructure, and commitment to providing world-class learning facilities. These recognitions validate the university's position as a leading educational institution.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/",
+        "https://paruluniversity.ac.in/about-us/pu-advantage/",
+        "https://paruluniversity.ac.in/about-us/recognitions-accreditations-approvals-notifications/"
+      ]
+    },
+    {
+      "question": "What are the university advantages?",
+      "answer": "Parul University offers numerous advantages including world-class learning facilities, diverse academic programs, experienced faculty, and a multicultural environment. The university provides excellent infrastructure, research opportunities, and a supportive learning environment that prepares students for global challenges. The institution focuses on innovation, quality education, and holistic development of students.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/",
+        "https://paruluniversity.ac.in/about-us/pu-advantage/"
+      ]
+    },
+    {
+      "question": "Tell me about the university",
+      "answer": "Parul University is a leading educational institution known for its commitment to discovery, innovation, and quality learning. The university welcomes students from diverse backgrounds and provides a unique destination for learning, innovation, and research. With world-class infrastructure, experienced faculty, and a focus on holistic development, Parul University prepares students to become global leaders and innovators.",
+      "sources": [
+        "https://paruluniversity.ac.in/about-us/",
+        "https://paruluniversity.ac.in/about-us/leadership/",
+        "https://paruluniversity.ac.in/about-us/vision-and-mission/",
+        "https://paruluniversity.ac.in/about-us/pu-advantage/",
+        "https://paruluniversity.ac.in/about-us/recognitions-accreditations-approvals-notifications/"
+      ]
+    }
+  ]
+}

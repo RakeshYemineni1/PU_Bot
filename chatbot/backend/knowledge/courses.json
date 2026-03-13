@@ -1,0 +1,55 @@
+{
+  "domain": "courses",
+  "lastUpdated": "2026-03-13T09:01:56.848Z",
+  "totalQuestions": 5,
+  "qa": [
+    {
+      "question": "What courses are offered?",
+      "answer": "Parul University offers a comprehensive range of courses across multiple disciplines including Agriculture, Applied Sciences, Architecture & Planning, Ayurveda, Commerce, Engineering & Technology, Fine Arts, Homeopathy, Hotel Management, IT & Computer Science, Law, Liberal Arts, Management Studies, Medicine, Nursing, Pharmacy, Physiotherapy, and many more. The university provides programs at diploma, undergraduate, postgraduate, and doctoral levels.",
+      "sources": [
+        "https://paruluniversity.ac.in/faculty/agriculture/",
+        "https://paruluniversity.ac.in/faculty/applied-sciences/",
+        "https://paruluniversity.ac.in/faculty/engineering-technology/",
+        "https://paruluniversity.ac.in/faculty/medicine/",
+        "https://paruluniversity.ac.in/faculty/management-studies/"
+      ]
+    },
+    {
+      "question": "What are the undergraduate programs?",
+      "answer": "Parul University offers extensive undergraduate programs including Bachelor's degrees in Engineering, Medicine, Pharmacy, Agriculture, Commerce, Arts, Science, Law, Management, Architecture, Fine Arts, and many other disciplines. These programs are designed to provide students with strong foundational knowledge and practical skills. Eligibility typically requires completion of 12th grade with relevant subject combinations.",
+      "sources": [
+        "https://paruluniversity.ac.in/program-type/bachelors-programs/",
+        "https://paruluniversity.ac.in/faculty/engineering-technology/",
+        "https://paruluniversity.ac.in/faculty/medicine/",
+        "https://paruluniversity.ac.in/faculty/management-studies/"
+      ]
+    },
+    {
+      "question": "What are the postgraduate programs?",
+      "answer": "The university offers Master's degree programs across various faculties including MBA, M.Tech, M.Sc, M.A, M.Com, M.Pharm, and specialized postgraduate programs in medical sciences, engineering, management, and other fields. These programs focus on advanced learning and research, preparing students for leadership roles in their respective industries.",
+      "sources": [
+        "https://paruluniversity.ac.in/program-type/masters-programs/",
+        "https://paruluniversity.ac.in/faculty/management-studies/",
+        "https://paruluniversity.ac.in/faculty/engineering-technology/"
+      ]
+    },
+    {
+      "question": "Are doctoral programs available?",
+      "answer": "Yes, Parul University offers doctoral programs (Ph.D.) across multiple disciplines. These research-intensive programs are designed for students who wish to pursue advanced research and contribute to knowledge in their field. The university provides excellent research facilities and guidance from experienced faculty members for doctoral candidates.",
+      "sources": [
+        "https://paruluniversity.ac.in/program-type/doctoral-post-doctoral-program/",
+        "https://paruluniversity.ac.in/research-and-development-centre/"
+      ]
+    },
+    {
+      "question": "What faculties does the university have?",
+      "answer": "Parul University has numerous faculties including Faculty of Agriculture, Applied Sciences, Architecture & Planning, Ayurveda, Commerce, Engineering & Technology, Fine Arts, Homeopathy, Hotel Management & Catering, IT & Computer Science, Law, Liberal Arts, Management Studies, Medicine, Nursing, Pharmacy, Physiotherapy, Public Health, Social Work, and Allied Healthcare Sciences. Each faculty offers specialized programs with modern curriculum and industry-relevant training.",
+      "sources": [
+        "https://paruluniversity.ac.in/academics/faculties-institutes/",
+        "https://paruluniversity.ac.in/faculty/engineering-technology/",
+        "https://paruluniversity.ac.in/faculty/medicine/",
+        "https://paruluniversity.ac.in/faculty/management-studies/"
+      ]
+    }
+  ]
+}
