@@ -178,15 +178,20 @@ function addUserMessage(text) {
 function addBotMessage(text) {
   const messageDiv = document.createElement('div');
   messageDiv.className = 'message bot';
+  const sanitized = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
   messageDiv.innerHTML = `
     <div class="message-avatar">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
       </svg>
     </div>
-    <div class="message-content">${text}</div>
+    <div class="message-content">${sanitized}</div>
   `;
-  
   elements.chatMessages.appendChild(messageDiv);
   scrollToBottom();
 }
