@@ -10,7 +10,10 @@ export async function askGemini(question, context = '') {
     // Try Gemini API first
     const model = genAI.getGenerativeModel({ model: 'models/gemini-2.5-flash' });
     
-    const prompt = `You are a helpful assistant for Parul University. Answer the following question based on the context provided. If context is not sufficient, provide a general helpful response about the university.
+    const prompt = `You are a chatbot exclusively for Parul University. You ONLY answer questions related to Parul University or general university/education topics (admissions, courses, placements, campus life, fees, scholarships, faculty, facilities, etc.).
+
+If the question is NOT related to Parul University or education/university topics, respond with exactly:
+"I'm sorry, I can only assist with Parul University related queries. For other inquiries, please contact us at info@paruluniversity.ac.in"
 
 Context: ${context}
 
