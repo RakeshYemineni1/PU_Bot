@@ -74,8 +74,10 @@ body {
 }
 
 .header-icon {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: contain;
 }
 
 .header-text h1 {
